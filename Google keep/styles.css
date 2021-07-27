@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Roboto", arial, sans-serif;
+  color: #202124;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page-header {
+  height: 60px;
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+.container {
+  max-width: 992px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.container--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header span {
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+nav {
+  height: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+ul li {
+  list-style-type: none;
+  padding-right: 1rem;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+li > a {
+  text-transform: capitalize;
+  color: #202124;
+  font-size: 15px;
+}
+
+.note {
+  max-width: 1000px;
+  margin-top: 30px;
+  padding: 0 15px;
+}
+
+.note-input {
+  border-radius: 3px;
+  width: 210px;
+  margin: 20px 10px 5px 10px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  margin-left: 400px;
+}
+
+#note-title {
+  font-size: 14px;
+  padding: 10px 16px;
+}
+
+.note-wrapper {
+  margin: 7px;
+  padding: 5px;
+  width: 200px;
+}
+
+#note-content {
+  font-size: 13px;
+  padding: 10px 16px 16px;
+}
+
+#note-title,
+#note-content {
+  width: 100%;
+  border: none;
+  font-size: 1.05rem;
+  padding: 0.55rem;
+  margin-bottom: 0.8rem;
+  border-radius: 2rem;
+}
+
+.note-list {
+  margin: 20px;
+  display: flex;
+}
+
+.note-item {
+  background: #fff;
+  margin: 20px;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.3);
+}
+
+.note-item p {
+  padding-bottom: 10px;
+}
+.note-item .btn {
+  margin-top: 12px;
+  margin-left: 3px;
+  background: #fff;
+  border: 2px solid var(--bittersweet);
+  color: var(--bittersweet);
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  text-align: center;
+  color: crimson;
+}

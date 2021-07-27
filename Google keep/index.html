@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Google keep</title>
+</head>
+<body>
+    <header class="page-header">
+        <div class="container container--header">
+            <div>
+               <span> Google Keep </span>
+            </div>
+            <nav>
+                <ul>
+                    <li> 
+                        <a href=""> Search Note </a>
+                        <form id="search-notes">
+                             <input type="text" id="myInput"  placeholder="search">
+                        </form>
+                       
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="note">
+            <div class="note-input">
+                <h3>Take a note..</h3>
+                <div class="note-wrapper">
+                    <input type="text" id = "note-title" placeholder="Title of your note">
+                    <textarea  id="note-content" placeholder="Write your note here...." rows="5"></textarea>
+                    <button id="add-note-btn" class="btn" type = "button" >
+                        <span><i class="fas fa-plus"></i></span>
+                            Add Note
+                    </button>
+                </div>
+            </div>
+        
+            <div class="note-list">
+          
+            </div>
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+<footer>
+    <p>
+         @2021 Achiței Ana Maria. All rights reserved. 
+    </p>
+</footer>
+</html>
